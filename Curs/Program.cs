@@ -210,7 +210,6 @@ namespace Curs
                 case 8: Console.Write(sm + sl + sl + sl); break;
                 case 9: Console.Write(sl + sh); break;
             }
-            Console.Write(" ");
         }
 
         /* -----------------------------------------
@@ -221,7 +220,7 @@ namespace Curs
          */
         static void Main(string[] args)
         {
-            Console.WriteLine("Alege o problema {1,2,3}");
+            Console.WriteLine("Alege o problema {1,2,3,4}");
             string read = Console.ReadLine();
             switch (read)
             {
